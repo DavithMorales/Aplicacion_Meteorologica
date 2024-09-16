@@ -6,7 +6,7 @@ const noEncontrado = document.querySelector('.no-encontrado');
 
 buscar.addEventListener('click', () => {
 
-    const APIKey = 'b992c3fe25c539c46e5c1baff6194f68'; // Reemplaza con tu API Key
+    const APIKey = 'CLAVE_API'; // Reemplaza con tu nueva API Key
     const ciudad = document.querySelector('.cuadro-busqueda input').value;
 
     if (ciudad === '')
