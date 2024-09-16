@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Aplicación Meteorológica</title>
+</head>
+
+<body>
+
+    <div class="contenedor">
+        <div class="cuadro-busqueda">
+            <i class="fa-solid fa-location-dot"></i>
+            <input type="text" placeholder="Ingrese ubicación">
+            <button class="fa-solid fa-magnifying-glass"></button>
+        </div>
+
+        <div class="no-encontrado">
+            <img src="img/404.png" alt="404">
+            <p>¡Oops! La ubicación no es válida</p>
+        </div>
+
+        <div class="cuadro-meteorologico">
+            <img src="" alt="Ícono del clima">
+            <p class="temperatura"></p>
+            <p class="descripcion"></p>
+        </div>
+
+        <div class="detalles-meteorologicos">
+            <div class="humedad">
+                <i class="fa-solid fa-water"></i>
+                <div class="texto">
+                    <span></span>
+                    <p>Humedad</p>
+                </div>
+            </div>
+            <div class="viento">
+                <i class="fa-solid fa-wind"></i>
+                <div class="texto">
+                    <span></span>
+                    <p>Velocidad del viento</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://kit.fontawesome.com/7c8801c017.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
