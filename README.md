@@ -4,6 +4,10 @@
 
 Esta aplicación meteorológica te permite obtener información sobre el clima actual de cualquier ciudad del mundo. La aplicación muestra la temperatura, la descripción del clima, la humedad y la velocidad del viento, así como un icono que representa las condiciones meteorológicas actuales.
 
+## Nota
+
+Esta aplicación solo funcionará si utilizas una clave de la API distinta la cual puedes usar del sitio https://openweathermap.org/api, solo debes crearte un usuario y generar la clave.
+
 ## Tecnologías Utilizadas
 
 - **HTML**: Para estructurar el contenido de la página.
@@ -24,7 +28,8 @@ Esta aplicación meteorológica te permite obtener información sobre el clima a
 
 1. Clona el repositorio o descarga los archivos del proyecto.
 2. Asegúrate de tener una conexión a Internet para consumir la API.
-3. Abre el archivo `index.html` en tu navegador.
+3. Genera y utiliza una clave de la API propia cuando inicies sesión en OpenWeatherMap API
+4. Abre el archivo `index.html` en tu navegador.
 
 ## Cómo Funciona
 
