@@ -14,6 +14,39 @@ body {
     background: #1997a0;
 }
 
+.modal {
+    position: fixed;
+    top: 20px; /* Coloca el modal en la parte superior */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    padding: 15px 25px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    z-index: 1000;
+    max-width: 400px;
+    width: 80%;
+    text-align: center;
+}
+
+.modal .close {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.contenedor {
+    /* El contenido principal debe tener suficiente espacio para no interferir con el modal */
+    margin-top: 100px; /* Ajusta esto según la altura del modal */
+    padding: 20px;
+    background: #fff;
+    border-radius: 18px;
+    width: 400px;
+    height: auto;
+}
+
 .contenedor {
     position: relative;
     width: 400px;

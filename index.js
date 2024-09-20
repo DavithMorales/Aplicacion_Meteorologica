@@ -81,3 +81,13 @@ buscar.addEventListener('click', () => {
         });
 
 });
+
+// Código existente para tu aplicación meteorológica
+
+// Código para manejar el cierre del modal
+const modal = document.querySelector('.modal');
+const closeModal = document.querySelector('.modal .close');
+
+closeModal.addEventListener('click', () => {
+    modal.style.display = 'none';
+});
