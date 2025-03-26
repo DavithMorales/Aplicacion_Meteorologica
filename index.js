@@ -4,9 +4,11 @@ const cuadroMeteorologico = document.querySelector('.cuadro-meteorologico');
 const detallesMeteorologicos = document.querySelector('.detalles-meteorologicos');
 const noEncontrado = document.querySelector('.no-encontrado');
 
+buscar.innerHTML = '<i class="fa-solid fa-magnifying-glass"></i>';
+
 buscar.addEventListener('click', () => {
 
-    const APIKey = 'CLAVE_API'; // Reemplaza con tu nueva API Key
+    const APIKey = '2c3202098547bb878f26fb115139bc3e'; // Reemplaza con tu nueva API Key
     const ciudad = document.querySelector('.cuadro-busqueda input').value;
 
     if (ciudad === '')
@@ -84,9 +86,9 @@ buscar.addEventListener('click', () => {
 
 // Código existente para tu aplicación meteorológica
 
-const modal = document.querySelector('.modal');
-const closeModal = document.querySelector('.modal .close');
+// const modal = document.querySelector('.modal');
+// const closeModal = document.querySelector('.modal .close');
 
-closeModal.addEventListener('click', () => {
-    modal.style.display = 'none';
-});
+// closeModal.addEventListener('click', () => {
+//     modal.style.display = 'none';
+// });
